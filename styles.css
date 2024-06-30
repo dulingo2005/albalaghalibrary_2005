@@ -1,0 +1,197 @@
+
+
+body {
+    font-family:Aref Ruquaa;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+	 direction: rtl; 
+	  background-image: url('Brown Autumn Aesthetic Watercolor Background Instagram Story.png'); /* استبدل 'path/to/your/image.jpg' بمسار صورتك */
+            background-size:  cover;
+            background-position:center; 
+            background-repeat: no-repeat;  
+}
+
+header {
+    background:#FDB57C;
+    color: #333;
+    padding: 0.3em 0;
+    text-align:center;
+	 display: flex; 
+	 align-items: center;  
+            
+
+}
+ table img{border-radius:10px;}
+
+nav ul {
+    background:#FDB57C;
+    color: #333;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+section {
+    padding: 2em;
+	padding-top:0px;
+}
+
+table {
+	
+    width: 100%;
+   
+    margin-bottom: 2em;
+	 
+ 
+}
+
+ 
+
+th, td {
+    padding: 8px;
+    text-align: center;
+	 
+}
+
+ 
+footer {
+    background:#FDB57C;
+    color: #333;
+    padding: 0.001em 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+@media only screen and (max-width:600px){
+	font-size:14px;
+	flex-direction:column;
+	grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+	display:flex;
+	flex-wrap:wrap;
+}
+ 
+
+form input, form textarea, form submit,form button {
+    padding: 15px;
+    margin-top: 5px;
+	 caret-color:lightsalmon;
+}
+.formfooter{
+	 margin: auto;
+	 padding: 15px;
+    margin-top: 5px;
+}
+   .range-labels {
+            display: flex;
+            justify-content: space-between;
+			
+        }
+        .range-labels span {
+            font-size: 17px;
+        }
+		section form{
+			font-size:16px;
+			font-weight:bold; 
+			font-family: 'Cairo', sans-serif;
+			 
+			
+		}
+		  .submit-button:hover {
+        background-color: #b0afc2;
+    }
+	.submit-button{
+		background-color:#c4c3d0;
+        border: none;
+        border-radius: 10px; width:150px; font-family: 'Cairo', sans-serif;  
+	}
+	 
+textarea{height:80px;
+ font-family: 'Cairo', sans-serif;
+ border-radius:10px;}
+  
+   .link {
+            position: relative;  
+            display: inline-block;  
+            
+        }
+        .link a {
+            position: absolute; 
+            top: 0;
+            left: 0;
+            width: 130px;  
+            height: 130px; 
+            text-decoration: none;  
+            
+        }
+        .link video {
+            width: 130px;  
+            height: 130px;  
+			border-radius:30px;
+            
+            
+            
+        }
+.slideshow {
+            width: 240px;
+            height: 450px; 
+            position: relative;
+            right:20px;
+		 top:8px;
+		 
+        }
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            animation: fade 14s infinite;
+            
+        }
+        .slide img {
+            width: 100%;
+            height: auto;
+			border-radius:10px;
+        }
+        .slide .text {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px  ;
+            border-radius: 5px;
+            position: relative;
+            top: -20px;  
+			font-weight:bold;
+        }
+
+        @keyframes fade {
+            0% { opacity: 0; }
+            11.11% { opacity: 1; }
+            33.33% { opacity: 1; }
+            44.44% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        .slide:nth-child(1) {
+            animation-delay: 0s;
+        }
+        .slide:nth-child(2) {
+            animation-delay: 6s;
+        }
+        
